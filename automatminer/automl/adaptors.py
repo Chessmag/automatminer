@@ -9,7 +9,7 @@ Current adaptor classes are:
 import logging
 from collections import OrderedDict
 
-from tpot.tpot import TPOTClassifier, TPOTRegressor
+from tpot import TPOTClassifier, TPOTRegressor
 
 from automatminer.automl.config.tpot_configs import (
     TPOT_CLASSIFIER_CONFIG,
