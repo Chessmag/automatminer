@@ -7,11 +7,11 @@ from typing import Dict
 
 import pandas as pd
 
-from automatminer import __name__ as amm_name
-from automatminer.base import DFTransformer
-from automatminer.presets import get_preset_config
-from automatminer.utils.ml import regression_or_classification
-from automatminer.utils.pkg import (
+from automatminer.automatminer import __name__ as amm_name
+from automatminer.automatminer.base import DFTransformer
+from automatminer.automatminer.presets import get_preset_config
+from automatminer.automatminer.utils.ml import regression_or_classification
+from automatminer.automatminer.utils.pkg import (
     check_fitted,
     set_fitted,
     return_attrs_recursively,
@@ -20,7 +20,7 @@ from automatminer.utils.pkg import (
     get_version,
     save_dict_to_file,
 )
-from automatminer.utils.log import initialize_logger
+from automatminer.automatminer.utils.log import initialize_logger
 
 logger = initialize_logger(logger_name=amm_name)
 
