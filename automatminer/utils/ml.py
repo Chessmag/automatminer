@@ -5,7 +5,7 @@ Tools and utils for machine learning.
 import warnings
 
 import pandas as pd
-from automatminer.utils.pkg import AutomatminerError
+from automatminer.automatminer.utils.pkg import AutomatminerError
 
 AMM_REG_NAME = "regression"
 AMM_CLF_NAME = "classification"
