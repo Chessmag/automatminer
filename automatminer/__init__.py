@@ -1,5 +1,5 @@
 from automatminer.automatminer.automl import SinglePipelineAdaptor, TPOTAdaptor  # noqa
-from automatminer.automatminer.featurization import AutoFeaturizer  # noqa
+from automatminer.automatminer.featurization.core import AutoFeaturizer  # noqa
 from automatminer.automatminer.pipeline import MatPipe  # noqa
 from automatminer.automatminer.preprocessing import DataCleaner, FeatureReducer  # noqa
 from automatminer.automatminer.presets import get_preset_config  # noqa
