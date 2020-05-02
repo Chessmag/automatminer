@@ -17,21 +17,21 @@ from matminer.featurizers.conversions import (
 from matminer.featurizers.function import FunctionFeaturizer
 from matminer.utils.io import store_dataframe_as_json, load_dataframe_from_json
 
-from automatminer.utils.log import (
+from automatminer.automatminer.utils.log import (
     log_progress,
     AMM_LOG_FIT_STR,
     AMM_LOG_TRANSFORM_STR,
 )
-from automatminer.utils.pkg import check_fitted, set_fitted
-from automatminer.base import DFTransformer
-from automatminer.featurization.sets import (
+from automatminer.automatminer.utils.pkg import check_fitted, set_fitted
+from automatminer.automatminer.base import DFTransformer
+from automatminer.automatminer.featurization.sets import (
     CompositionFeaturizers,
     StructureFeaturizers,
     BSFeaturizers,
     DOSFeaturizers,
 )
-from automatminer.utils.pkg import AutomatminerError
-from automatminer.utils.ml import regression_or_classification
+from automatminer.automatminer.utils.pkg import AutomatminerError
+from automatminer.automatminer.utils.ml import regression_or_classification
 
 __author__ = [
     "Alex Dunn <ardunn@lbl.gov>",
