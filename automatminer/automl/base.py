@@ -9,9 +9,9 @@ import logging
 import numpy as np
 import pandas as pd
 
-from automatminer.base import DFTransformer
-from automatminer.utils.log import AMM_LOG_PREDICT_STR, log_progress
-from automatminer.utils.pkg import AutomatminerError, check_fitted
+from automatminer.automatminer.base import DFTransformer
+from automatminer.automatminer.utils.log import AMM_LOG_PREDICT_STR, log_progress
+from automatminer.automatminer.utils.pkg import AutomatminerError, check_fitted
 
 logger = logging.getLogger(__name__)
 
